@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "nodemon index"
+    "start": "NODE_ENV=staging nodemon index",
+    "production": "NODE_ENV=production nodemon index"
   },
   "dependencies": {
     "node": "^18.8.0",
